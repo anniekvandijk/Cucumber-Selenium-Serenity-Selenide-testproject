@@ -10,6 +10,7 @@
     <modules>
         <module>Cucumber-Java8-Selenide</module>
         <module>Cucumber-Java-Selenide-Serenity</module>
+        <module>Cucumber-Java8-Selenium</module>
     </modules>
     <packaging>pom</packaging>
 
