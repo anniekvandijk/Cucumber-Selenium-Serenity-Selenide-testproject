@@ -1,18 +1,23 @@
 package org.example2;
 
 import com.codeborne.selenide.Condition;
+import io.cucumber.java.After;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Condition.exactText;
-import static com.codeborne.selenide.Selenide.open;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.$$;
+import static com.codeborne.selenide.Selenide.*;
 import static org.openqa.selenium.By.linkText;
 
 public class testSteps {
+
+        @After
+        public void closeBrowser() {
+           closeWebDriver();
+        }
+
 
         @Given("I navigate to website {string}")
         public void navigate(String url)
