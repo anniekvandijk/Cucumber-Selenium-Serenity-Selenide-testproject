@@ -14,7 +14,7 @@
     <properties>
         <cucumber.version>4.8.0</cucumber.version>
         <cucumber.junit.version>4.8.0</cucumber.junit.version>
-        <junit.version>4.13</junit.version>
+        <junit.version>4.13.1</junit.version>
         <selenide.version>5.7.0</selenide.version>
         <serenity.version>2.1.6</serenity.version>
         <serenity.cucumber4.version>2.1.2</serenity.cucumber4.version>
